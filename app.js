@@ -1,8 +1,7 @@
+/* eslint-disable no-console */
 // grab DOM elements
 
 // set event listeners
-console.log('hello world!');
-console.log('42', 42);
 
 
 // variables
@@ -14,6 +13,7 @@ console.log(`My dog's name is ${dogName}. ${dogName} is very cute. ${dogName} is
 // functions
 // allow us to reuse behavior or multiple lines of code
 function sayHello(name) {
+    // eslint-disable-next-line no-console
     console.log(`Hello ${name}!`);
     console.log('It is a very beautiful day today!');
     console.log('I hope you are well!');

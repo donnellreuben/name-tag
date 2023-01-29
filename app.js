@@ -21,3 +21,21 @@ function sayHello(name) {
 
 sayHello('Justin');
 sayHello('Nastasia');
+
+
+// make a variable that contains a reference to the html element
+// change the text content of that html element
+
+
+// make a variable that references the update button
+// listen for a click on that button
+const updateBtn = document.getElementById('update');
+updateBtn.addEventListener('click', ()=>{
+    console.log('i am clicking on the button!!');
+
+    const nameInput = document.getElementById('input');
+
+    const nameELem = document.getElementById('name');
+    nameELem.textContent = nameInput.value;
+    
+});

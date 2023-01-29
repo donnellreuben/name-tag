@@ -29,14 +29,13 @@ main {
 
 
 .name-input {
-    margin: auto;
-    
-    padding: 40px;
+    padding-top: 40px ;
+    padding-bottom: 40px;
     color: #C6B79B;
     display: flex;
-    justify-content: center;
     align-items: center;
-   
+    justify-content: center;
+    
 }
 
 .name-tag {
@@ -77,4 +76,6 @@ main {
 
 .bio { 
     text-align: center;
+    color: white;
+    opacity: .5;
 }

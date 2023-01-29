@@ -30,9 +30,12 @@ main {
 
 .name-input {
     margin: auto;
-    width: 30%;
+    
     padding: 40px;
     color: #C6B79B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 

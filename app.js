@@ -8,7 +8,7 @@ console.log('42', 42);
 // variables
 // variables allow us to reuse individual pieces of data 
 const dogName = 'Kiwi';
-console.log(`My dog's name is ${dogName}. ${dogName} is very cute. ${dogName} is 7 years old.`)
+console.log(`My dog's name is ${dogName}. ${dogName} is very cute. ${dogName} is 7 years old.`);
 
 
 // functions

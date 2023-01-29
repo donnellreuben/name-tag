@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
-        'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    
     background: #2F2440;
     display: grid;
     grid-template-rows: auto 1fr;
